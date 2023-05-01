@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "poseidons_gate_main_mod",
+  "version": "1.0.0",
+  "name": "Poseidon's Gate Main Mod",
+  "authors": [
+    "Lawto, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "accessWidener": "poseidons_gate_main_mod.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.poseidonsgatemainmod.PoseidonsGateMainModMod"
+    ],
+    "client": [
+      "net.mcreator.poseidonsgatemainmod.ClientInit"
+    ],
+    "terrablender": [
+      "net.mcreator.poseidonsgatemainmod.TerraBlenderInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}

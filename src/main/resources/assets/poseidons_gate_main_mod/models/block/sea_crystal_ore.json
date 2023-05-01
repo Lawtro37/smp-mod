@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "poseidons_gate_main_mod:blocks/seacrystal_ore",
+    "particle": "poseidons_gate_main_mod:blocks/seacrystal_ore"
+  }
+}

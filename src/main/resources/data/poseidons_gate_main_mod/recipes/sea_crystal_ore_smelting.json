@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "poseidons_gate_main_mod:sea_crystal_ore"
+  },
+  "result": "poseidons_gate_main_mod:sea_crystal"
+}

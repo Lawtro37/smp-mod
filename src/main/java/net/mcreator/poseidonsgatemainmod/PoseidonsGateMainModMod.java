@@ -21,6 +21,7 @@ import net.minecraft.nbt.CompoundTag;
 
 import net.mcreator.poseidonsgatemainmod.init.PoseidonsGateMainModModProcedures;
 import net.mcreator.poseidonsgatemainmod.init.PoseidonsGateMainModModItems;
+import net.mcreator.poseidonsgatemainmod.init.PoseidonsGateMainModModFeatures;
 import net.mcreator.poseidonsgatemainmod.init.PoseidonsGateMainModModBlocks;
 
 import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
@@ -36,6 +37,8 @@ public class PoseidonsGateMainModMod implements ModInitializer {
 
 		PoseidonsGateMainModModBlocks.load();
 		PoseidonsGateMainModModItems.load();
+
+		PoseidonsGateMainModModFeatures.load();
 
 		PoseidonsGateMainModModProcedures.load();
 

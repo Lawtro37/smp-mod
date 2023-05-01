@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "poseidons_gate_main_mod:sea_crystal"
+    },
+    "1": {
+      "item": "poseidons_gate_main_mod:sea_crystal"
+    },
+    "2": {
+      "item": "poseidons_gate_main_mod:sea_crystal"
+    },
+    "3": {
+      "item": "poseidons_gate_main_mod:sea_crystal"
+    },
+    "4": {
+      "item": "poseidons_gate_main_mod:sea_crystal"
+    },
+    "5": {
+      "item": "poseidons_gate_main_mod:sea_crystal"
+    },
+    "6": {
+      "item": "poseidons_gate_main_mod:sea_crystal"
+    },
+    "7": {
+      "item": "poseidons_gate_main_mod:sea_crystal"
+    },
+    "8": {
+      "item": "poseidons_gate_main_mod:sea_crystal"
+    }
+  },
+  "result": {
+    "item": "poseidons_gate_main_mod:sea_crystal_block",
+    "count": 1
+  }
+}

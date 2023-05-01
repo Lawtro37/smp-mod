@@ -61,6 +61,92 @@
           "src/main/resources/assets/poseidons_gate_main_mod/models/item/core_of_the_sea.json"
         ]
       }
+    },
+    {
+      "name": "SeaCrystal",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sea_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poseidonsgatemainmod/item/SeaCrystalItem.java",
+          "src/main/resources/assets/poseidons_gate_main_mod/models/item/sea_crystal.json"
+        ]
+      }
+    },
+    {
+      "name": "SeaCrystalOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sea_crystal_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poseidons_gate_main_mod/models/item/sea_crystal_ore.json",
+          "src/main/java/net/mcreator/poseidonsgatemainmod/world/features/ores/SeaCrystalOreFeature.java",
+          "src/main/resources/assets/poseidons_gate_main_mod/blockstates/sea_crystal_ore.json",
+          "src/main/resources/assets/poseidons_gate_main_mod/models/block/sea_crystal_ore.json",
+          "src/main/java/net/mcreator/poseidonsgatemainmod/block/SeaCrystalOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SeaCrystalBlock",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sea_crystal_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poseidonsgatemainmod/block/SeaCrystalBlockBlock.java",
+          "src/main/resources/assets/poseidons_gate_main_mod/models/block/sea_crystal_block.json",
+          "src/main/resources/assets/poseidons_gate_main_mod/models/item/sea_crystal_block.json",
+          "src/main/resources/assets/poseidons_gate_main_mod/blockstates/sea_crystal_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SeaCrystalOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sea_crystal_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poseidons_gate_main_mod/recipes/sea_crystal_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SeaCrystalBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sea_crystal_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poseidons_gate_main_mod/recipes/sea_crystal_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SeaCrystalOreSmelting",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sea_crystal_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poseidons_gate_main_mod/recipes/sea_crystal_ore_smelting.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -68,7 +154,10 @@
   "language_map": {
     "en_us": {
       "block.poseidons_gate_main_mod.sea_stone": "Sea Stone",
-      "item.poseidons_gate_main_mod.core_of_the_sea": "Core Of The Sea"
+      "item.poseidons_gate_main_mod.sea_crystal": "SeaCrystal",
+      "block.poseidons_gate_main_mod.sea_crystal_block": "Block of SeaCrystal",
+      "item.poseidons_gate_main_mod.core_of_the_sea": "Core Of The Sea",
+      "block.poseidons_gate_main_mod.sea_crystal_ore": "SeaCrystal Ore"
     }
   },
   "foldersRoot": {

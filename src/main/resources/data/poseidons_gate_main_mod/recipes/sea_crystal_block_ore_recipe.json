@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "poseidons_gate_main_mod:sea_crystal_block"
+    }
+  ],
+  "result": {
+    "item": "poseidons_gate_main_mod:sea_crystal",
+    "count": 9
+  }
+}

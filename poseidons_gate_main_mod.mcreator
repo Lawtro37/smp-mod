@@ -1,9 +1,75 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "SeaStone",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sea_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poseidons_gate_main_mod/blockstates/sea_stone.json",
+          "src/main/resources/assets/poseidons_gate_main_mod/models/item/sea_stone.json",
+          "src/main/resources/assets/poseidons_gate_main_mod/models/block/sea_stone.json",
+          "src/main/java/net/mcreator/poseidonsgatemainmod/block/SeaStoneBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "TheDepths",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_depths",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poseidons_gate_main_mod/dimension/the_depths.json",
+          "src/main/resources/data/poseidons_gate_main_mod/dimension_type/the_depths.json"
+        ]
+      }
+    },
+    {
+      "name": "CoreOfTheSeaRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "core_of_the_sea_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poseidonsgatemainmod/procedures/CoreOfTheSeaRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoreOfTheSea",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "core_of_the_sea",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poseidonsgatemainmod/item/CoreOfTheSeaItem.java",
+          "src/main/resources/assets/poseidons_gate_main_mod/models/item/core_of_the_sea.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.poseidons_gate_main_mod.sea_stone": "Sea Stone",
+      "item.poseidons_gate_main_mod.core_of_the_sea": "Core Of The Sea"
+    }
   },
   "foldersRoot": {
     "name": "~",

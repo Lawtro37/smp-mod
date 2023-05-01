@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "poseidons_gate_main_mod:blocks/sea_stone",
+    "up": "poseidons_gate_main_mod:blocks/sea_stone",
+    "north": "poseidons_gate_main_mod:blocks/sea_stone",
+    "east": "poseidons_gate_main_mod:blocks/sea_stone",
+    "south": "poseidons_gate_main_mod:blocks/sea_stone",
+    "west": "poseidons_gate_main_mod:blocks/sea_stone",
+    "particle": "poseidons_gate_main_mod:blocks/sea_stone"
+  }
+}

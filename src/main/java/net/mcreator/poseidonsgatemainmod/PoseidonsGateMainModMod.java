@@ -19,6 +19,10 @@ import org.apache.logging.log4j.LogManager;
 
 import net.minecraft.nbt.CompoundTag;
 
+import net.mcreator.poseidonsgatemainmod.init.PoseidonsGateMainModModProcedures;
+import net.mcreator.poseidonsgatemainmod.init.PoseidonsGateMainModModItems;
+import net.mcreator.poseidonsgatemainmod.init.PoseidonsGateMainModModBlocks;
+
 import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
 import net.fabricmc.api.ModInitializer;
 
@@ -29,6 +33,11 @@ public class PoseidonsGateMainModMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing PoseidonsGateMainModMod");
+
+		PoseidonsGateMainModModBlocks.load();
+		PoseidonsGateMainModModItems.load();
+
+		PoseidonsGateMainModModProcedures.load();
 
 		GeckoLib.initialize();
 		ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> {

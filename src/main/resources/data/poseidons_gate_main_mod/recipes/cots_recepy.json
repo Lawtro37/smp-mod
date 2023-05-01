@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_block"
+    },
+    "1": {
+      "item": "minecraft:sea_lantern"
+    },
+    "2": {
+      "item": "minecraft:diamond_block"
+    },
+    "3": {
+      "item": "minecraft:prismarine_bricks"
+    },
+    "4": {
+      "item": "minecraft:conduit"
+    },
+    "5": {
+      "item": "minecraft:prismarine"
+    },
+    "6": {
+      "item": "minecraft:diamond_block"
+    },
+    "7": {
+      "item": "minecraft:dark_prismarine"
+    },
+    "8": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+  "result": {
+    "item": "poseidons_gate_main_mod:core_of_the_sea",
+    "count": 1
+  }
+}

@@ -4,24 +4,12 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "deep_cold_ocean"
-      },
-      {
-        "value": "deep_frozen_ocean"
-      },
-      {
-        "value": "deep_lukewarm_ocean"
-      },
-      {
-        "value": "deep_ocean"
-      },
-      {
         "value": "deep_warm_ocean"
       }
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "Blocks.STONE#0"
+      "value": "CUSTOM:SeaStone"
     },
     "fluidBlock": {
       "value": "Blocks.WATER"

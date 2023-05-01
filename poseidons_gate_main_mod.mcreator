@@ -17,22 +17,9 @@
       }
     },
     {
-      "name": "TheDepths",
-      "type": "dimension",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "the_depths",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/poseidons_gate_main_mod/dimension/the_depths.json",
-          "src/main/resources/data/poseidons_gate_main_mod/dimension_type/the_depths.json"
-        ]
-      }
-    },
-    {
       "name": "CoreOfTheSeaRightclicked",
       "type": "procedure",
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "core_of_the_sea_rightclicked",
@@ -147,6 +134,66 @@
           "src/main/resources/data/poseidons_gate_main_mod/recipes/sea_crystal_ore_smelting.json"
         ]
       }
+    },
+    {
+      "name": "COTSRecepy",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cots_recepy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poseidons_gate_main_mod/recipes/cots_recepy.json"
+        ]
+      }
+    },
+    {
+      "name": "TheDepths",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_depths",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poseidons_gate_main_mod/dimension/the_depths.json",
+          "src/main/resources/data/poseidons_gate_main_mod/dimension_type/the_depths.json"
+        ]
+      }
+    },
+    {
+      "name": "PoesidensTrident",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poesidens_trident",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poseidonsgatemainmod/item/PoesidensTridentItem.java",
+          "src/main/resources/assets/poseidons_gate_main_mod/models/item/poesidens_trident.json"
+        ]
+      }
+    },
+    {
+      "name": "PoesidensTridentToolInInventoryTick",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poesidens_trident_tool_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poseidonsgatemainmod/procedures/PoesidensTridentToolInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -156,6 +203,7 @@
       "block.poseidons_gate_main_mod.sea_stone": "Sea Stone",
       "item.poseidons_gate_main_mod.sea_crystal": "SeaCrystal",
       "block.poseidons_gate_main_mod.sea_crystal_block": "Block of SeaCrystal",
+      "item.poseidons_gate_main_mod.poesidens_trident": "Poesidens Trident",
       "item.poseidons_gate_main_mod.core_of_the_sea": "Core Of The Sea",
       "block.poseidons_gate_main_mod.sea_crystal_ore": "SeaCrystal Ore"
     }

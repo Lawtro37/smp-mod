@@ -34,7 +34,7 @@
     "onRightClickedInAir": {
       "name": "CoreOfTheSeaRightclicked"
     },
-    "onEntityHitWith": {
+    "onEntitySwing": {
       "name": "CoreOfTheSeaLivingEntityIsHitWithItem"
     },
     "isFood": false,

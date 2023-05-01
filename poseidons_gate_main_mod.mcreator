@@ -194,6 +194,25 @@
           }
         ]
       }
+    },
+    {
+      "name": "CoreOfTheSeaLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "core_of_the_sea_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/poseidonsgatemainmod/procedures/CoreOfTheSeaLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],

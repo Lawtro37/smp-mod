@@ -8,11 +8,13 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.network.chat.Component;
 
 import net.mcreator.poseidonsgatemainmod.procedures.CoreOfTheSeaRightclickedProcedure;
+import net.mcreator.poseidonsgatemainmod.procedures.CoreOfTheSeaLivingEntityIsHitWithItemProcedure;
 
 import java.util.List;
 
@@ -47,5 +49,12 @@ public class CoreOfTheSeaItem extends Item {
 
 		CoreOfTheSeaRightclickedProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
 		return ar;
+	}
+
+	@Override
+	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
+		CoreOfTheSeaLivingEntityIsHitWithItemProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
+		return retval;
 	}
 }

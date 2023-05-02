@@ -28,7 +28,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class PoesidensTridentItem extends Item {
 	public PoesidensTridentItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(100).fireResistant());
+		super(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(0).fireResistant());
 	}
 
 	@Override
@@ -76,5 +76,11 @@ public class PoesidensTridentItem extends Item {
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		PoesidensTridentToolInInventoryTickProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
+	}
+
+	@Override
+	@Environment(EnvType.CLIENT)
+	public boolean isFoil(ItemStack itemstack) {
+		return true;
 	}
 }

@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 1,
-    "texture": "texture",
+    "texture": "coresea",
     "customModelName": "poesiden's_trident:default",
     "name": "Poesidens Trident",
     "specialInfo": [
@@ -18,9 +18,9 @@
     "attackSpeed": 15.0,
     "enchantability": 1,
     "damageVsEntity": 4.0,
-    "usageCount": 100,
+    "usageCount": 0,
     "blocksAffected": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "repairItems": [],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
